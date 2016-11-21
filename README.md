@@ -1,2 +1,4 @@
 # CIS111-Projects
 Folders of Labs and Quickchecks
+
+USED FOR PROJECTS AND CLASS ASSINGMENTS IN COMP SCI
