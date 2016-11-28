@@ -20,7 +20,7 @@ public class HouseApplet extends JFrame{
    public HouseApplet(){
       
       getContentPane().setBackground(Color.white);
-      addMouseListener(new MyMouseListener());
+      
       
       setTitle("House Applet");
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -80,6 +80,7 @@ public class HouseApplet extends JFrame{
       g.fillRect(225, 350, 50, 100);
    }
    
+   /*
    //Mouse Listener
    private class MyMouseListener implements MouseListener{
    
@@ -95,6 +96,8 @@ public class HouseApplet extends JFrame{
            // }
       }
    }
+   
+   */
 
    //Main Method
    public static void main(String[] args){
