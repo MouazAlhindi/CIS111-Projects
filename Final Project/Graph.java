@@ -21,10 +21,7 @@ public class Graph extends JPanel{
    private JTextField yAxisLabel;
    
 
-   public Graph(){
-      //setup drawing
-       //getContentPane().setBackground(Color.white);
-   
+   public Graph(){   
       //inialize GUI Componenets
       xAxisLabel = new JTextField("Proceding Profit/Expense");
       yAxisLabel = new JTextField("Total Income");
@@ -32,10 +29,12 @@ public class Graph extends JPanel{
       
       setSize(500, 500);
    }
-   
-   public void paint(Graphics g){
-      super.paint(g);
+
+   public void paintComponent(Graphics g){
+
    }
+   
+
    
    
 

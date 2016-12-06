@@ -29,6 +29,7 @@ public class HouseApplet extends JFrame{
       
       getContentPane().setBackground(Color.white);
       
+      addMouseListener(new MyMouseListener());
       
       setTitle("House Applet");
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -123,10 +124,10 @@ public class HouseApplet extends JFrame{
    
    //DRAWS NO LEFT WINDOW
    public void openLeftWindow(Graphics g){
-      
       //LEFT WINDOW
       g.fillRect(100, 300, 100, 100);    
    }
+   
    //DRAWS NO RIGHT WINDOW
    public void openRightWindow(Graphics g){
       //RIGHT WINDOW
@@ -138,12 +139,9 @@ public class HouseApplet extends JFrame{
       g.fillRect(225, 350, 50, 100);
    }
    
-<<<<<<< HEAD
-   /*
-   //Mouse Listener
-=======
+
    //MOUSE LISTENER
->>>>>>> 7373576bd2153e70fd89a3ba3bcfaf496e946646
+
    private class MyMouseListener implements MouseListener{
       
       //MOUSE CLICK EVENT GATHERS MOUSE COORDINATES AND REPAINTS GUI IMAGE
@@ -175,7 +173,6 @@ public class HouseApplet extends JFrame{
       }
    }
    
-   */
 
    //MAIN METHOD
    public static void main(String[] args){
